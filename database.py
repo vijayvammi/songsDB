@@ -16,6 +16,8 @@ Base = declarative_base()
 
 def create_tables():
     # register your models here !
-    import model.EchoNest
+    #import model.EchoNest
+    #import model.Word
+    import model.SongWords
     Base.metadata.create_all(bind=engine)
 
